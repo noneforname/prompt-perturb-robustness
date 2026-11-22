@@ -1,0 +1,19 @@
+﻿run_id,vid,qid,operator,model,model_version,temperature,seed,timestamp,prompt_template,prompt_text,raw_response,parsed_answer,gold_answer,is_correct,parse_ok,latency_ms,tokens_in,tokens_out,variant_ok,note
+sim-strong__q001__original__T0__S2027__R0,q001__original,q001,original,sim-strong,simulated-v1,0.0,2027,2026-11-12T19:30:00+08:00,v1.0,"某商品原价200元，先涨价10%，再降价10%，现价是多少元？
+
+A. 200元
+B. 198元
+C. 202元
+D. 190元
+
+请从 A / B / C / D 中选择唯一正确的一项，并在最后一行输出：答案：X",答案：B,B,B,1,1,0,120,6,1,基线，未扰动
+sim-strong__q001__irrelevant__T0__S2027__R0,q001__irrelevant,q001,irrelevant,sim-strong,simulated-v1,0.0,2027,2026-11-12T19:30:01+08:00,v1.0,"（背景补充）这份材料在不同年份的印刷版本中，页边距曾做过微调。
+
+某商品原价200元，先涨价10%，再降价10%，现价是多少元？
+
+A. 200元
+B. 198元
+C. 202元
+D. 190元
+
+请从 A / B / C / D 中选择唯一正确的一项，并在最后一行输出：答案：X",答案：C,C,B,0,1,0,150,6,1,前置 1 句无关背景

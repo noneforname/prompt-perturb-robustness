@@ -1,0 +1,4 @@
+vid,qid,operator,variant_text,option_order,semantic_score,reviewer,status
+q001__original,q001,original,某商品原价200元，先涨价10%，再降价10%，现价是多少元？,ABCD,1.00,system,ok
+q001__synonym,q001,synonym,某商品原价200元，先涨价10%，再降价10%，现价是多少元？,ABCD,1.00,system,ok
+q001__option_reorder,q001,option_reorder,某商品原价200元，先涨价10%，再降价10%，现价是多少元？,BADC,1.00,system,ok
